@@ -7,6 +7,7 @@ export default class Hello extends Component {
     render() {
         return (
             <div>
+                <h1>This is my app</h1>
                 <button onClick={this.doSomething}>click me</button>
             </div>
         )
